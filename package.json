@@ -5,7 +5,7 @@
   "main": "server.js",
   "engines": {
     "node": "16.14.0",
-    "npm":"8.13.2"
+    "npm": "8.13.2"
   },
   "scripts": {
     "build": "cd client && npm run build",
@@ -13,7 +13,8 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon server.js",
     "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"",
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\"" },
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix client\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
