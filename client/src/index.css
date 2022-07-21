@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+    /* font-family: 'DM Sans', sans-serif;
+font-family: 'Lato', sans-serif; */
+font-family: 'Nunito Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.error_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #f34646;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+.success_msg {
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 14px;
+	background-color: #92fe9d ;
+	color:rgba(0, 0, 0, 0.731);
+	border-radius: 5px;
+	text-align: center;
+}

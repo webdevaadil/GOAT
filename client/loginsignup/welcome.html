@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Welcome</title>
+</head>
+
+<body>
+  <Section id="form-section">
+    <div class="wel-form">
+      <div class="wel-p1 img-main">
+        <div class="img-main">
+        </div>
+      </div>
+      <div class="wel-p1 wel-bg">
+        <div class="form-content">
+          <h2>Welcome!</h2>
+          <div class="form-main">
+            <form onSubmit={handleSubmit} class="form-floating mb-3">
+              <input onChange={(e)=>(setLoginEmail(e.target.value))} name = "email" value = {loginEmail} type="email"
+              class="form-control" id="floatingInputValue" placeholder="yourmail@mail.com"/>
+              <label for="floatingInputValue">Email Address</label>
+              <div class="form-floating mb-3">
+                <input 
+                name="password"
+                value={loginPassword}
+
+                onChange={(e)=>setLoginPassword(e.target.value)}
+                type="password" class="form-control" id="myInput" placeholder="*******" />
+                <i class="fa fa-eye" onclick="myFunction()"></i>
+                <label for="floatingPassword">Passwords</label>
+              </div>
+              <div class="fom-btn mb-3">
+                <button type="submit" class="btn btn-outline-secondary">Sign Up</button>
+                <button type="login" class="btn btn-outline-secondary">Login</button>
+              </div>
+            </form>
+
+          </div>
+          <p>By signing up, I agree to the <span>Terms and conditions and Privacy policy</span></p>
+
+        </div>
+      </div>
+    </div>
+
+  </Section>
+
+</body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+</script>
+
+</html>

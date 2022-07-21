@@ -1,0 +1,61 @@
+.Mainheader {
+	background: #101617;
+	padding: 5px 0px;
+  }
+  
+  .Mainheader a.nav-link {
+	color: #767A81 !important;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 800;
+	letter-spacing: 0.15px;
+  }
+  .Mainheader li.nav-item.active a {
+	color: #fff !important;
+  }
+  .top-btn .btn {
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	border: none;
+	margin: 0px 6px;
+	border-radius: 5rem;
+	padding: 7px 25px;
+	font-family: 'Nunito Sans';
+  font-style: normal;
+  }
+  .navbar-expand-lg {
+	align-items: center;
+  }
+  .top-btn .btn-1 {
+	background: #03203E;
+  }
+  .top-btn .btn-2 {
+	background: #10867F;
+  }
+  .top-btn .btn:hover {
+	background: #fff;
+  }
+  .navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.5);
+	border-color: rgba(0,0,0,.1);
+	background: #fff !important;
+  }
+  a.navbar-brand img {
+	width: 100%;
+	max-width: 245px;
+  }
+  .user_btn{
+    border: none;
+	outline: none;
+	padding: 12px 0;
+    background: #A55947;
+	color: white;
+	border-radius: 20px;
+	width: 100px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}

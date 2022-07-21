@@ -1,0 +1,341 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:wght@100;300;400;700;900&family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
+*{
+  font-family: 'Nunito Sans', sans-serif;
+}
+body{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.container {
+  max-width: 1440px !important;
+  margin: auto !important;
+}
+
+.slide{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.18) 60%),url("../../Images/goat-slide.png");
+  background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 500px;
+}
+
+.main-content{
+  color: #FFFFFF;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+.main-sec {
+  width: 50% !important;
+  padding-top: 4rem;
+  
+}
+.main-content h2 {
+  font-size: 3rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  color: #fff;
+  font-weight: 700;
+  line-height: 3.875rem;
+}
+.main-content p {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.18px;
+  color: #fff;
+  font-family: 'DM Sans';
+  font-weight: 700;
+}
+
+#freetip-sec {
+  background: #F4F7F8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+/* freetips start */
+.main-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 20px;
+}
+
+.tips-colum1 h3 {
+  color: #03203E;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 800;
+  font-family: 'Nunito Sans';
+}
+.free-content {
+  display: flex;
+  width: 50%;
+}
+
+.main-freetips {
+  display: flex;
+  width: 100% !important;
+  gap: 25px;
+  padding-top: 20px;
+}
+.main_1 {
+  width: 50%;
+}
+.tip-grid {
+  background: #fff;
+  padding: 20px;
+  grid-gap: 25px;
+  align-items: center;
+  display: flex;
+  box-shadow: 0px 1px 8px rgb(0 0 0 / 8%);
+    border-radius: 16px;
+}
+.space {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+}
+.tip-grid button.btn {
+  background: #16446F;
+  color: #fff;
+  border-radius: 24px;
+  padding: 5px 21px;
+}
+.main_1 h1 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: 'Nunito Sans';
+}
+.space p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #40516B;
+font-family: 'Nunito Sans';
+}
+.main-img{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.18) 60%),url("../../Images/goat-slide.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height:auto;
+    border-radius: 22px;
+}
+.main_cont {
+  color: #FFFFFF;
+  font-family: 'DM Sans';
+  padding: 0px 2rem;
+}
+
+.main_cont h3 {
+  font-size: 2.625rem;
+  font-weight: 600;
+  line-height: 3.438rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  flex-grow: 0;
+}
+.main_cont p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  flex-grow: 0;
+}
+.main_cont h4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  flex-grow: 0;
+}
+.main_cont span {
+  font-size: 34px;
+  line-height: 36px;
+  font-weight: bold;
+  font-family: 'DM Sans';
+}
+button.btn.freetips-btn {
+  background: #10867F;
+  padding: 15px 66px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.18px;
+  margin-top: 2rem;
+}
+.freebt-2 {
+  background: #287D1A !important;
+}
+
+/* freetips start */
+
+
+/* upcomming-sec css start */
+.container-fluid.upcomming-sec {
+  background: #F3F7F8;
+  padding: 20px;
+}
+.upcomming-table {
+  padding-top: 1rem;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #FAFCFF;
+}
+
+.upcomming-table tr:first-child {
+  /* background-color:#000 !important; */
+  border-radius: 4px !important;
+}
+th.first-border {
+  border-start-start-radius: 17px !important;
+  background: #000;
+}
+th.first-border2 {
+  border-start-end-radius: 20px
+}
+.upcomming-table th {
+  color: #fff;
+  padding: 14px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #FFFFFF;
+  background-color: #000;
+}
+.upcomming-table button.btn {
+  background: #16446F;
+  color: #fff;
+  border-radius: 24px;
+  padding: 5px 21px;
+}
+.upcomming-table .btn-2 {
+  background: #287D1A !important;
+}
+.upcomming-table td:nth-child(3) {
+  color: #10867F;
+}
+.upcomming-table td {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #40516B;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+  box-shadow: 0px 0px 0px 1px rgb(0 0 0 / 16%);
+  border-radius: 16px !important;
+}
+/* upcomming-sec css end  */
+
+
+
+/* responsive */
+@media (max-width: 1200px) {
+  .tip-grid {
+    grid-gap: 10px;
+}
+.tip-grid button.btn {
+  padding: 5px 13px;
+}
+.space {
+  gap: 10px;
+}
+}
+
+
+@media (max-width: 992px) {
+  .main-sec {
+    width: 80% !important;
+    padding-top: 0px;
+} 
+  .main-freetips {
+    display: flex;
+    width: 100% !important;
+    gap: 25px;
+    padding-top: 20px;
+    flex-direction: column;
+}
+.main_1 {
+  width: 100%;
+}
+.main_cont {
+  padding: 2rem 2rem;
+}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

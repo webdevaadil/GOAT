@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+*{
+    margin:0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+
+}
+body{
+    width: 100%;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+}
+.wel-form {
+    display: flex;
+    width: 100%;
+    background: #F3F7F8;
+    height:100vh;
+}
+.wel-p1 {
+    width: 100%;
+
+}
+.form-content p {
+    padding-top: 10px;
+}
+.wel-p1 img { 
+       width: 100%;
+    object-fit: cover;
+}
+.form-main {
+    padding-top: 1rem;
+}
+.form-content {
+    padding: 0px 7rem;
+    padding-top: 5.625rem;
+}
+.form-content h2 {
+    font-size: 3rem;
+    line-height: 56px;
+    color: #0A0E0F;
+    font-weight: 400;
+    font-family: 'Nunito Sans';
+}
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  .fom-btn {
+    display: flex;
+    gap: 25px;
+}
+/* .wel-p1 {
+    background: url('assets/images/shhh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+} */
+.wel-bg{
+    background: url('../../Images/shhh.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+.img-main{
+    background: url('../../Images/welcome-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+  .fom-btn .btn {
+    width: 48%;
+    display: inline-block;
+    padding: 14px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color:#AEB1B9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #AEB1B9;
+
+  }
+
+  
+.form-main label {
+    font-size: 14px;
+    line-height: 30px;
+    color: #767A81 !important;
+    font-weight: 600;
+    font-family: 'Nunito Sans';
+}
+i.fa.fa-eye {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+}
+.form-main .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+   
+    color: #AEB2B9;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius:6px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px !important;
+}
+.fom-btn .btn:hover {
+    background: #AEB3B9;
+    border: none;
+}
+.form-main .form-content p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    color: #252729;
+}
+.form-main .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow:none;
+}
+.form-main .btn-check:focus+.btn-outline-secondary, .btn-outline-secondary:focus {
+    box-shadow: none !important;
+}
+.form-content span {
+    color: #000;
+    font-weight: bold !important;
+}
+
+
+
+/* signup */
+
+.form-main h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 20px;
+}
+.form-inner {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+}
+
+
+
+/* responsive */
+@media (max-width:1200px) {
+    .form-content {
+        padding: 0px 40px;
+        padding-top: 60px;
+    }
+    .wel-form {
+        height: auto;
+    }
+  }
+
+  @media (max-width:668px) {
+        .form-content {
+            padding: 0px 25px;
+            padding-top: 10px;
+        }
+        .wel-form {
+            display: flex;
+            flex-direction: column;
+        }
+      
+        .form-content {
+            text-align: center;
+        }
+        .form-content h2 {
+            font-size: 2rem;
+        }   
+}
